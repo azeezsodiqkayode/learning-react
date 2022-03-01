@@ -1,0 +1,116 @@
+body {
+  background-color: #e9ebee;
+}
+
+footer {
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.fb-header {
+  height: auto;
+  width: auto;
+  font-size: 10px;
+  background-color: white;
+  border-bottom: 0.5px solid #133783;
+}
+
+.inner-header {
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.fb-header-logo {
+  width: 120px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.login-grid {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  grid-column-gap: 12px;
+}
+
+.card {
+  position: center;
+  width: max-content;
+  padding-top: 50px;
+}
+
+.title {
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.text {
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.buttons {
+  float: right;
+}
+
+.btnG {
+  background-color: #1b74e4;
+  color: white;
+}
+.btnC {
+  margin-right: 10px;
+}
+.modal-button {
+  display: inline-flex;
+  padding-top: 10px;
+  margin-left: 320px;
+  justify-content: space-evenly;
+}
+
+.footer1 {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: smaller;
+  margin-left: 50px;
+  margin-bottom: -50px;
+}
+
+.footer2 {
+  list-style-type: none;
+  margin-left: 70px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: smaller;
+}
+.footer3 {
+  list-style-type: none;
+  margin-left: 75px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: smaller;
+}
+
+.modal-input {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
