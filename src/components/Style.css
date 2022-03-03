@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #e9ebee;
 }
 
@@ -13,7 +13,7 @@ footer {
 hr {
   margin-top: 0px;
   margin-bottom: 5px;
-}
+} */
 .fb-header {
   height: auto;
   width: auto;
@@ -113,4 +113,17 @@ hr {
   padding-bottom: 30px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.Cd {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.savings {
+  display: grid;
+}
+
+.cx {
+  padding-left: 70px;
 }

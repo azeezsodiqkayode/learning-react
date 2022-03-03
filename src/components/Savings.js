@@ -1,9 +1,11 @@
+import SavingCard from "./SavingCard";
+import Empty from "./Empty";
 
 
-const SavingsCards =()=>{
+const Savings =()=>{
 
 
-    "data": [
+    const savingsData = [
         {
             "name": "Vacation",
             "savingsID": "e090ce43-315b-4852-bcca-ee5a1f4223ba",
@@ -138,7 +140,15 @@ const SavingsCards =()=>{
     ]
 
 
-    return ()
+    return (
+
+        <div className="container">
+        {
+            (savingsData.length > 0)? savingsData.map((saving,i) => <SavingCard key={i} data={saving}/>): <Empty name ="Your list is empty"/>
+        }
+        </div>
+        
+    )
 }
 
-export default SavingsCards;
+export default Savings;

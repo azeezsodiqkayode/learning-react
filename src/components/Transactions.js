@@ -1,7 +1,8 @@
+import Empty from "./Empty";
+import TransactionCard from "./TransactionCard";
 
 
-
-const TransactionCards =()=>{
+const Transactions=()=>{
 
 
     const transactions = [
@@ -155,10 +156,14 @@ const TransactionCards =()=>{
 
 
     return(
-        <div>
 
+        <div className="container">
+            {
+                (transactions.length > 0)? transactions.map((transaction,j )=> <TransactionCard key ={j}data={transaction}/>): <Empty name ="Your list is empty"/>
+            }
         </div>
+    
     )
 }
 
-export default TransactionCards
+export default Transactions
